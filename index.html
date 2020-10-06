@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width" name="viewport">
+    <title>Formularz rekrutacyjny</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="center"></div>
+        <section class="main__form">
+            <form class="form">
+                <h1 class="form__title">witaj!</h1>
+                <p class="form__text">wypełnij formularz i zgarnij </br><span>kupon rabatowy</span> do wykorzystania przy najbliszych zakupach</p>
+                <div class="form__inputs">
+                    <input class="form__input form__input__email" type="email" placeholder="email">
+                    <input class="form__input form__input__name"type="text" placeholder="imię">
+                    <br></br>
+                    <div class="container">
+                        <input class="checkbox" type="checkbox" checked>
+                        <span class="checkmark"></span>
+                    </div>
+                    <p class="checbox__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sit tenetur. Et eos rerum aspernatur quasi accusamus nobis optio consequatur expedita laudantium, a, vel atque sapiente ducimus mollitia alias vero ex quisquam, quas dolore.</p> 
+                </div>
+                <input type="submit" class="form__submit" value="wyślij">
+            </form>
+        </section>
+        <section class="thankYouPage hidden">
+            <h1 class="thankYouPage__title">dziękujemy <span class="thankYouPage__name"></span>!</h1>
+            <p class="thankYouPage__text">za wypełnienie formularza, kod rabatowy czeka na ciebie na twojej skrzynce mailowej</p>
+        </section>
+    </div>
+</body>
+</html>
