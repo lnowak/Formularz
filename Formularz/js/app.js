@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     form.addEventListener('submit', e => {
         e.preventDefault();
         if (name.value.length > 0 && email.value.indexOf('@') && email.value.length > 0 && check.checked) {
-            thankYouName.innerHTML = name.value;
+            thankYouName.innerHTML = `${name.value}!`;
             thankYouPage.style.display = 'flex';
             mainForm.style.display = 'none';
         }

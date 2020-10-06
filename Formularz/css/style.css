@@ -5,15 +5,232 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.center {
-    margin: auto;
+.container1 {
+    width: 100%;
+}
+
+@media all and (max-width: 360px) {
+
+    .form__title {
+        font-size: 1.5rem;
+        margin: 20px 0 10px 0;
+        text-align: center;
+    }
+
+    .form__text {
+        font-size: 1rem;
+        padding: 5px 5px 0 20px;
+    }
+
+    .form__inputs {
+        padding: 10px 5px 0 20px;
+    }
+
+    .form__input {
+        height: 30px;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .form__input::-webkit-input-placeholder {
+        font-size: 20px;
+    }
+
+    .form__input__email {
+        width: 95%;
+        margin: 15px 0 10px 0;
+    }
+
+    .form__input__name {
+        width: 95%;
+    }
+
+    .form__submit {
+        margin-top: 18%;
+        width: 50%;
+    }
+
+    .checbox__text {
+        font-size: 12px;
+    }
+
+    .thankYouPage__title {
+        font-size: 30px;
+    }
+
+    .thankYouPage__text {
+        font-size: 20px;
+    }
+}
+
+@media all and (min-width: 361px) and (max-width: 460px) {
+
+    .form__title {
+        font-size: 2rem;
+        margin: 20px 0 10px 0;
+    }
+
+     .form__text {
+        font-size: 1.3rem;
+        padding: 5px 5px 0 20px;
+    }
+
+    .form__inputs {
+        padding: 10px 5px 0 20px;
+    }
+
+    .form__input {
+        height: 30px;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .form__input::-webkit-input-placeholder {
+        font-size: 20px;
+    }
+
+    .form__input__email {
+        width: 95%;
+        margin-bottom: 10px;
+    } 
+
+    .form__input__name {
+        width: 95%;
+    }
+
+    .form__submit {
+        margin-top: 10%;
+        width: 50%;
+    }
+
+    .checbox__text {
+        font-size: 12px;
+    }
+
+    .thankYouPage__title {
+        font-size: 35px;
+    }
+
+    .thankYouPage__text {
+        font-size: 25px;
+    }
+}
+
+@media all and (min-width: 461px) and (max-width: 520px) {
+
+    .form__title {
+        font-size: 2.5rem;
+        margin: 20px 0 10px 0;
+    }
+
+     .form__text {
+        font-size: 1.5rem;
+        padding: 5px 5px 0 20px;
+    }
+
+    .form__inputs {
+        padding: 10px 5px 0 20px;
+    }
+
+    .form__input {
+        height: 30px;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .form__input::-webkit-input-placeholder {
+        font-size: 20px;
+    }
+
+    .form__input__email {
+        width: 95%;
+        margin-bottom: 10px;
+    } 
+
+    .form__input__name {
+        width: 95%;
+    }
+
+    .form__submit {
+        margin-top: 10%;
+        width: 40%;
+    }
+
+    .checbox__text {
+        font-size: 14px;
+    }
+
+    .thankYouPage__title {
+        font-size: 50px;
+    }
+
+    .thankYouPage__text {
+        font-size: 30px;
+    }
+}
+
+@media all and (min-width: 520px) {
+
+    .form__title {
+        font-size: 3.4rem; 
+        padding: 16px 0 0 50px;
+    }
+
+    .form__text {
+        font-size: 1.5rem;
+        padding: 5px 5px 0 20px;
+        font-size: 30px;
+        padding: 5px 5px 0 20px;
+    }
+
+    .form__inputs {
+        padding: 10px 5px 0 20px;
+    }
+
+    .form__input {
+        height: 50px;
+        font-size: 22px;
+        padding-top: 15px;
+    }
+
+    .form__input::-webkit-input-placeholder {
+        font-size: 30px;
+    }
+
+    .form__input__email {
+        width: 56%; 
+        margin-right: 45px;
+    } 
+
+    .form__input__name {
+        width: 31%;
+    }
+
+    .form__submit {
+        margin-top: 10%;
+        width: 38%;
+    }
+
+    .checbox__text {
+        font-size: 14px;
+    }
+
+    .thankYouPage__title {
+        font-size: 50px;
+    }
+
+    .thankYouPage__text {
+        font-size: 35px;
+    }
 }
 
 .main__form {
     height: 600px;
     max-width: 600px;
     min-width: 280px;
+    width: 100%;
     background-color: #80b0b4;
+    margin: auto;
 }
 
 .form {
@@ -25,14 +242,7 @@
     color: #3a3a3a;
 }
 
-.form__title {
-    font-size: 55px;
-    padding: 16px 0 0 50px;
-}
-
 .form__text {
-    font-size: 30px;
-    padding: 5px 5px 0 20px;
     text-align: center;
 }
 
@@ -40,34 +250,17 @@
     color: #185b61;
 }
 
-.form__inputs {
-    padding: 60px 5px 0 45px;
-}
-
 .form__input {
     border: none;
     border-bottom: 4px solid #185b61;
     background-color:  #80b0b4;
-    height: 50px;
     margin-bottom: 15px;
-    padding-top: 15px;
-    font-size: 25px;
     color: #185b61;
 }
 
 .form__input::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-size: 30px;
     color: #185b61;
-}
-
-.form__input__email {
-    width: 56%;
-    margin-right: 45px;
-}
-
-.form__input__name {
-    width: 31%;
 }
 
 .checkbox {
@@ -135,14 +328,11 @@ transform: rotate(45deg);
 
 .checbox__text {
     margin: 0 20px 0 55px;
-    font-size: 14px;
     text-transform: none;
 }
 
 .form__submit {
     height: 75px;
-    width: 38%;
-    margin: 75px 0 0 20px;
     font-size: 45px;
     background-color:   #185b61;
     color: rgb(255, 255, 255);
@@ -164,17 +354,17 @@ transform: rotate(45deg);
 }
 
 .thankYouPage__title {
-    font-size: 50px;  
     margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .thankYouPage__title span {
-    font-size: 50px;
     border-bottom: 2px solid #3a3a3a; 
 }
 
 .thankYouPage__text {
-    font-size: 35px;
     margin-bottom: 165px;
     text-align: center;
 }
